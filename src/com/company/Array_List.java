@@ -10,6 +10,6 @@ public class Array_List {
         al.add(20);
         al.add(30);
         al.add(1,600);
-        al.forEach(x-> System.out.println(x));
+        al.forEach(System.out::println);
     }
 }
